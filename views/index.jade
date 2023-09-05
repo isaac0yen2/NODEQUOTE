@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .container
+      h1 Welcome to the NodeQuote Site
+      .quote-container
+        p.quote #{randomQuote}
+      form(action='/inputquote', method='GET') 
+        button(class="btn" type="submit") Submit Your Own Quote
+
+

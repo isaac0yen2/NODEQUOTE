@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef5fc;
+}
+.container {
+  text-align: center;
+  padding: 100px;
+}
+h1 {
+  font-size: 36px;
+  color: #1a73e8;
+}
+.quote-container {
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.quote {
+  font-size: 24px;
+  color: #333333;
+}
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
